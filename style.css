@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 3rem;
+    color: white;
+
+    background-image: 
+        linear-gradient(to bottom, transparent, rgba(0, 0, 0, .5)), 
+        linear-gradient(to top, transparent, rgba(0, 0, 0, .5)), 
+        url("https://images.unsplash.com/photo-1531686264889-56fdcabd163f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    
+    background-size: cover;
+
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.countdown {
+    display: flex;
+}
+
+.countdown > div {
+    padding: 1rem;
+}
+
+.value {
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 .5rem black;
+}
+
+.label {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0 0 .3rem black;
+}
+
+.title {
+    font-size: 3.5rem;
+    text-shadow: 0 0 1rem black;
+}
+
+.attribution {
+    position: absolute;
+    bottom: .25rem;
+    right: .5rem;
+    font-size: 1rem;
+    text-shadow: 0 0 .3rem black;
+}
